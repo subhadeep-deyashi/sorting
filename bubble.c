@@ -29,6 +29,6 @@ int main()
     for(int i = 0; i < size; scanf("%i", &arr[i]), ++i);
     bubble_sort(size);
     printf("The sorted array is : ");
-    for(int i = 0; i < size; printf("%i , ", a[i]), ++i);
+    for(int i = 0; i < size; printf("%i , ", arr[i]), ++i);
     return 0;
 }
